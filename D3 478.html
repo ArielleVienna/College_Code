@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+	<style>
+    .line-chart
+    {
+        border: 1px solid lightgray;
+    }
+</style>
+  </head>
+  <body>
+    <svg></svg>
+    <script src="https://d3js.org/d3.v4.min.js">
+	
+	var api = 'https://api.coindesk.com/v1/bpi/historical/close.json?start=2017-12-31&end=2018-04-01';
+document.addEventListener("DOMContentLoaded", function(event) {
+   fetch(api)
+     .then(function(response) { return response.json(); })
+     .then(function(data) { 
+         //DO SOMETHING WITH DATA  
+     })
+});
+....
+.then(function(data) { 
+         var parsedData = parseData(data)
+ })
+function parseData(data) {
+   var arr = [];
+   for (var i in data.bpi) {
+      arr.push(
+         {
+            date: new Date(i), //date
+            value: +data.bpi[i] //convert string to number
+         });
+   }
+   return arr;
+}
+....
+.then(function(data) { 
+   var parsedData = parseData(data);
+   drawChart(parsedData);
+})
+function drawChart(data) {
+   var svgWidth = 600, svgHeight = 400;
+   var margin = { top: 20, right: 20, bottom: 30, left: 50 };
+   var width = svgWidth - margin.left - margin.right;
+   var height = svgHeight - margin.top - margin.bottom;
+   var svg = d3.select('svg')
+     .attr("width", svgWidth)
+     .attr("height", svgHeight);
+...
+...
+var g = svg.append("g")
+   .attr("transform", 
+      "translate(" + margin.left + "," + margin.top + ")"
+   );
+	
+	
+	</script>  </body>
+</html>

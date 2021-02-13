@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Lab 07 478; Highcharts and D3 </title>
+	
+	 <script src="https://d3js.org/d3.v4.min.js"> // loading the D3 library into the document </script>
+	 <style> 
+	 #chart div{
+            font: 10px sans-serif;
+            background-color: steelblue;
+            text-align: right;
+            padding: 3px;
+            margin: 1px;
+            color: white;
+        }
+		</style>
+  </head>
+  <body>
+  
+   <div id="chart"></div> 
+<script> //this is creating a chart using javascript
+   var data = [30, 86, 168, 281, 303, 365];
+
+            d3.select("#chart")
+            .selectAll("div")
+            .data(data)
+                .enter()
+                .append("div")
+                .style("width", function(d) { return d + "px"; })
+                .text(function(d) { return d; });
+  
+  </script>
+  </body>
+</html>
