@@ -1,0 +1,21 @@
+ENVI
+description = {
+  Maximum Likelihood Classification Result [Mon Dec 02 12:01:22 2019]}
+samples = 640
+lines   = 400
+bands   = 1
+header offset = 0
+file type = ENVI Classification
+data type = 1
+interleave = bsq
+sensor type = Unknown
+classes = 4
+class lookup = {
+   0,   0,   0, 255,   0,   0,   0, 255,   0,   0,   0, 255}
+class names = {
+ Unclassified, Region #1 [Red] 327 points, Region #2 [Green] 137 points, 
+ Region #3 [Blue] 347 points}
+byte order = 0
+wavelength units = Unknown
+band names = {
+ Max Like (can_tmr.img)}

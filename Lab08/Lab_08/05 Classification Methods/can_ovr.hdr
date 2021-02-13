@@ -1,0 +1,14 @@
+ENVI
+description = {
+  Class Overlay [Tue Oct 21 01:06:43 1997] }
+samples = 640
+lines   = 400
+bands   = 3
+header offset = 0
+file type = ENVI Standard
+data type = 1
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+band names = {
+ R (Overlay TM Band 3), G (Overlay TM Band 3), B (Overlay TM Band 3)}

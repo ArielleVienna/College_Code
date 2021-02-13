@@ -1,0 +1,22 @@
+ENVI
+description = {
+  ISODATA Classification Result [Mon Dec 02 11:08:12 2019]}
+samples = 640
+lines   = 400
+bands   = 1
+header offset = 0
+file type = ENVI Classification
+data type = 1
+interleave = bsq
+sensor type = Unknown
+classes = 8
+class lookup = {
+   0,   0,   0, 255,   0,   0,   0, 255,   0,   0,   0, 255, 255, 255,   0,
+   0, 255, 255, 255,   0, 255, 176,  48,  96}
+class names = {
+ Unclassified, Class 1, Class 2, Class 3, Class 4, Class 5, Class 6, 
+ Class 7}
+byte order = 0
+wavelength units = Unknown
+band names = {
+ ISODATA (can_tmr.img)}

@@ -1,0 +1,16 @@
+ENVI
+description = {
+  Spectral Angle Mapper Rule Images [Mon Oct 20 23:13:33 1997] }
+samples = 640
+lines   = 400
+bands   = 3
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+band names = {
+ Rule (Region #1 [Red1] [327 points]), 
+ Rule (Region #2 [Green1] [137 points]), 
+ Rule (Region #3 [Blue1] [347 points])}

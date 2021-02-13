@@ -1,0 +1,19 @@
+ENVI
+description = {
+  Parallelepiped Classification [Mon Oct 20 00:35:43 1997] }
+samples = 640
+lines   = 400
+bands   = 1
+header offset = 0
+file type = ENVI Classification
+data type = 1
+interleave = bsq
+sensor type = Unknown
+classes = 4
+class lookup = {
+   0,   0,   0, 255,   0,   0,   0, 255,   0,   0,   0, 255}
+class names = {
+ Unclassified, Region #1, Region #2, Region #3}
+byte order = 0
+band names = {
+ Parallel (can_tmr.img)}

@@ -1,0 +1,20 @@
+ENVI
+description = {
+  K-Means Classification [Sun Oct 19 23:54:06 1997] }
+samples = 640
+lines   = 400
+bands   = 1
+header offset = 0
+file type = ENVI Classification
+data type = 1
+interleave = bsq
+sensor type = Unknown
+classes = 6
+class lookup = {
+   0,   0,   0, 255,   0,   0,   0, 255,   0,   0,   0, 255, 255, 255,   0,
+   0, 255, 255}
+class names = {
+ Unclassified, Class 1, Class 2, Class 3, Class 4, Class 5}
+byte order = 0
+band names = {
+ K-Means (can_tmr.img)}

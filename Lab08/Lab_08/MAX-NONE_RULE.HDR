@@ -1,0 +1,16 @@
+ENVI
+description = {
+  Maximum Likelihood Rule Images Result [Mon Dec 02 12:01:22 2019]}
+samples = 640
+lines   = 400
+bands   = 3
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+wavelength units = Unknown
+band names = {
+ Rule (Region #1 [Red] 327 points), Rule (Region #2 [Green] 137 points), 
+ Rule (Region #3 [Blue] 347 points)}
