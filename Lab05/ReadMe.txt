@@ -1,0 +1,1 @@
+3600/(1/1000) ->This is pt 2 Q1, Altitude / IFOV

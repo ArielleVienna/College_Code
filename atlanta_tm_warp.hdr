@@ -1,0 +1,18 @@
+ENVI
+description = {
+ Create New File Result [Tue Oct 26 09:33:59 2004]}
+samples = 591
+lines   = 593
+bands   = 6
+data type = 1
+interleave = bsq
+file type = ENVI Standard
+header offset = 0
+byte order = 0
+map info = {State Plane (NAD 27), 1.0000, 1.0000, 391094.6146, 1379888.6203, 9.377214e+001, 9.377214e+001, 1002, units=Feet}
+coordinate system string = {PROJCS["NAD_1927_StatePlane_Georgia_West_FIPS_1002",GEOGCS["GCS_North_American_1927",DATUM["D_North_American_1927",SPHEROID["Clarke_1866",6378206.4,294.9786982]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500001.000002],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-84.16666666666667],PARAMETER["Scale_Factor",0.9999],PARAMETER["Latitude_Of_Origin",30.0],UNIT["FOOT",0.3048]]}
+band names = {
+ Layer_1, Layer_2, Layer_3, Layer_4, Layer_5, Layer_6}
+wavelength units = Unknown
+data ignore value = 0.000000e+000
+sensor type = Unknown

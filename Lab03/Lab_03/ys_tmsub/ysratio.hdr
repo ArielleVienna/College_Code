@@ -1,0 +1,17 @@
+ENVI
+description = {
+  File Resize Result, x resize factor: 0.5000, y resize factor: 0.5000. [Sun
+  Jan 12 15:27:10 1997] }
+samples = 416
+lines   = 567
+bands   = 3
+header offset = 0
+file type = ENVI Standard
+data type = 1
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {UTM, 1, 1, 532410.000, 4946910.000, 60.000000, 60.000000, 12, North}
+default stretch = equalize
+band names = {
+ Ratio 5/7, Ratio 3/1, Ratio 3/4}
